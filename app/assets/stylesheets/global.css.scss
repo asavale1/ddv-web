@@ -1,0 +1,15 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body{
+	padding-right: 5%;
+	padding-left: 5%;
+	header{
+		width: 100%;
+		padding-right: 5%;
+	}
+
+	.main{
+		padding-top: 50px;
+	}
+}
