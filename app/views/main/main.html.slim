@@ -1,0 +1,28 @@
+div#main
+	h1 Digital Da Vinci
+
+	div#partials
+		div#home.partial style="display:block"
+			= render 'home'
+		div#about.partial style="display:none"
+			= render 'about'
+		div#apps.partial style="display:none;"
+			= render 'apps'
+		div#sites.partial style="display:none;"
+			= render 'sites'
+		div#contact.partial style="display:none"
+			= render 'contact'
+	div#tabs
+		table
+			tr
+				td
+					h2 onclick="replacePartial(0)" Home
+				td
+					h2 onclick="replacePartial(1)" About us
+				td
+					h2 onclick="replacePartial(2)" Apps
+				td
+					h2 onclick="replacePartial(3)" Sites
+				td
+					h2 onclick="replacePartial(4)" Contact
+				

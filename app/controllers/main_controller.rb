@@ -1,5 +1,7 @@
 class MainController < ApplicationController
-	def home
+	#respond_to :html, :js
+
+	def main
 		
 	end
 end

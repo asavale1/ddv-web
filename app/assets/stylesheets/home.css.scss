@@ -1,4 +1,4 @@
-div#home{
+div#main{
 
 	text-align:center;
 	background-image: url(hero.jpg);
@@ -21,10 +21,18 @@ div#home{
     table{
     	width: 100%;
     	td{
-    		width: 25%;
+    		width: 20%;
     		text-align: center;
     		color: #fff;
     	}
     }
 	}
+
+	div#partials{
+		div#about{
+			background: #000;
+		}
+	}
+	
+	
 }
