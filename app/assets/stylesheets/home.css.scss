@@ -57,8 +57,16 @@ div#main{
 				height: 70%;
 				background:rgba(0,0,0,0.5);
 				border-radius: 25px;
+				padding-left: 10%;
+				padding-right: 10%;
+
 				h3{
+					position: relative;
+  				top: 50%;
+  				transform: translateY(-50%);
+
 					color: #fff;
+					font-size: 75px;
 				}
 			}
 		}
