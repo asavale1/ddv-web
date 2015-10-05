@@ -11,3 +11,14 @@ function replacePartial(partial){
 		}
 	}
 }
+
+function replaceAppDetails(details){
+	var appsList = $('.details').toArray();
+	for(var i = 0; i < appsList.length; i++){
+		if(details == i ){
+			appsList[i].style.display = "block";
+		}else{
+			appsList[i].style.display = "none";
+		}
+	}
+}

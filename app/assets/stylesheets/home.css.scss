@@ -33,11 +33,12 @@ div#main{
 
 	div#partials{
 		height: 85%;
+		h1{
+			font-size: 200px;
+			color: #fff;
+		}
+
 		div#home{
-			h1{
-				font-size: 200px;
-				color: #fff;
-			}
 			img{
 				margin-top: 30px;
 			}
@@ -47,10 +48,6 @@ div#main{
 			height: 100%;
 			padding-left: 10%;
 			padding-right: 10%;
-			h1{
-				font-size: 200px;
-				color: #fff;
-			}
 
 			div#content{
 				width: 100%;
@@ -72,24 +69,46 @@ div#main{
 		}
 
 		div#apps{
-			h1{
-				font-size: 200px;
-				color: #fff;
+			height: 100%;
+			padding-left: 10%;
+			padding-right: 10%;
+			
+			div#content{
+				width: 100%;
+				height: 70%;
+				h2{
+					font-size: 75px;
+					color: #fff;
+				}
+
+				div#app-list{
+					float: left;
+					background:rgba(0,0,0,0.5);
+					border-radius: 25px;
+					padding: 5%;
+				}
+				div#app-details{
+					float: left;
+					margin-left: 20px;
+				}
+
+				
 			}
 		}
 
 		div#contact{
-			h1{
-				font-size: 200px;
-				color: #fff;
+			width: 100%;
+			height: 70%;
+			div#content{
+				h2{
+					font-size: 50px;
+					color: #fff;
+				}
 			}
 		}
 
 		div#sites{
-			h1{
-				font-size: 200px;
-				color: #fff;
-			}
+			
 		}
 	}
 }
