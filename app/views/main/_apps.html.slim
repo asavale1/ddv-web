@@ -1,19 +1,22 @@
 h1 Our Apps
 div#content
-	div#app-list
-		h2 onclick="replaceAppDetails(0)" Dejalearn
-		h2 onclick="replaceAppDetails(1)" Zero In
-		h2 onclick="replaceAppDetails(2)" Jhanja
-		h2 onclick="replaceAppDetails(3)" Polls of Humanity
-		h2 onclick="replaceAppDetails(4)" Club Knight
-	div#app-details
-		div.details style="display:block"
-			= render 'apps/dejalearn'
-		div.details style="display:none"
-			= render 'apps/zero_in'
-		div.details style="display:none;"
-			= render 'apps/jhanja'
-		div.details style="display:none;"
-			= render 'apps/polls_of_humanity'
-		div.details style="display:none"
-			= render 'apps/club_knight'
+	table
+		tr
+			td#app-list
+				div#app-list
+					h2 onclick="replaceAppDetails(0)" Dejalearn
+					h2 onclick="replaceAppDetails(1)" Zero In
+					h2 onclick="replaceAppDetails(2)" Jhanja
+					h2 onclick="replaceAppDetails(3)" Polls of Humanity
+					h2 onclick="replaceAppDetails(4)" Club Knight
+			td#app-details
+				div.details style="display:block"
+					= render 'apps/dejalearn'
+				div.details style="display:none"
+					= render 'apps/zero_in'
+				div.details style="display:none;"
+					= render 'apps/jhanja'
+				div.details style="display:none;"
+					= render 'apps/polls_of_humanity'
+				div.details style="display:none"
+					= render 'apps/club_knight'
