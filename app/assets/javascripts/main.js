@@ -22,3 +22,14 @@ function replaceAppDetails(details){
 		}
 	}
 }
+
+function replaceSiteDetails(details){
+	var sitesList = $('.site-details').toArray();
+	for(var i = 0; i < sitesList.length; i++){
+		if(details == i ){
+			sitesList[i].style.display = "block";
+		}else{
+			sitesList[i].style.display = "none";
+		}
+	}
+}

@@ -1,1 +1,23 @@
 h1 Our Sites
+div#content
+	table
+		tr
+			td#sites-list
+				h2 onclick="replaceSiteDetails(0)" Club Knight
+				h2 onclick="replaceSiteDetails(1)" Starrz Dance
+				h2 onclick="replaceSiteDetails(2)" Alpa Diamonds
+				h2 onclick="replaceSiteDetails(3)" Dejalearn
+				h2 onclick="replaceSiteDetails(4)" Alpa Gold Inc.
+			td#sites-details
+				div.site-details style="display:block"
+					= render 'sites/club_knight'
+				div.site-details style="display:none"
+					= render 'sites/starrz_dance'
+				div.site-details style="display:none"
+					= render 'sites/alpa_diamonds'
+				div.site-details style="display:none;"
+					= render 'sites/dejalearn'
+				div.site-details style="display:none"
+					= render 'sites/alpa_gold'
+				
+				
