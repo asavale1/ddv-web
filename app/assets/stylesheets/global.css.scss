@@ -4,13 +4,39 @@
 @font-face {
   font-family: 'Kilowatts';
   src:font-url('Kilowatts.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'SeptemberMornings';
   src:font-url('SeptemberMornings.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
+@font-face {
+  font-family: 'Perisphere';
+  src:font-url('Perisphere.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arcon-Regular';    
+  // No need any embeded Ruby code here
+  src: font-url('Arcon-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant-Light';    
+  // No need any embeded Ruby code here
+  src: font-url('Cormorant-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body{
 	width: 100%;
